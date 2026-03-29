@@ -1,0 +1,51 @@
+/* Base Theme with new font */
+/* Low key i didn't think this would work in a Pycharm IDE, but it does!*/
+.stApp {
+    background-color: #0d0221;
+    color: #00ffff;
+    font-family: 'Hemi Head', hemi-head, monospace;
+}
+
+/* Neon Borders for Video */
+img {
+    border: 3px solid #ff00ff;
+    box-shadow: 0 0 15px #ff00ff, inset 0 0 10px #ff00ff;
+    border-radius: 10px;
+}
+
+/* Cyber Buttons */
+.stButton>button {
+    background-color: #1a1a2e;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.stButton>button:hover {
+    background-color: #00ffff;
+    color: #0d0221;
+    box-shadow: 0 0 20px #00ffff;
+}
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-color: #050110;
+    border-right: 1px solid #ff00ff;
+}
+
+/* Scanline Effect Overlay, coolest thing ever is to go back in time */
+.stApp::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 4px, 3px 100%;
+    pointer-events: none;
+}
