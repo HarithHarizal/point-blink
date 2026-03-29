@@ -12,7 +12,7 @@ Features:
 	• It can also help people in multitasking where they can use their eyes as an extra pair of limbs.
 	• Allows people regardless of ability to use more hands-free technology
 
-Utilizes: OpenCV | PyAutoGUI | MediaPipe Ver 10.14
+Utilizes: OpenCV | PyAutoGUI | Streamlit |  MediaPipe Ver 10.14
 """
 # --- imports ---
 # Streamlit web application integration
@@ -61,7 +61,7 @@ st.markdown("""Features:
 
 # --- SIDEBAR CONFIGURATION ---
 with st.sidebar:
-    st.image("https://i.imgur.com/xxhhuWI.png")
+    st.image("https://i.imgur.com/NRo3tye.png")
     st.header("⚙️ SYSTEM_PARAMS")
     smoothing_window = st.slider("Signal Smoothing", 1, 20, 8)
     click_threshold = st.slider("Ocular Sensitivity", 0.001, 0.02, 0.007, format="%.3f")
@@ -101,10 +101,14 @@ with col_stats:
     status_box = st.empty()
     st.write("**Left-Wink:** LEFT_CLICK")
     st.write("**Right-Wink:** RIGHT_CLICK")
+    st.write("**Pause-Unpause:** DOUBLE_BLINK")
     st.write("**Long-Close:** EMERGENCY_STOP")
-    st.image("https://imgur.com/200x200/pL8SgGY", use_container_width=True)
 
-#https://placehold.co/200x200/0d0221/00ffff?text=CORE_ACTIVE
+    # --- DYNAMIC STATUS IMAGE SWITCH ---
+    if st.session_state.run:
+        st.image("https://i.imgur.com/pL8SgGY.png", use_container_width=True)  # Online
+    else:
+        st.image("https://i.imgur.com/SQcBPB8.png", use_container_width=True)  # Offline
 
 # --- TRACKING LOGIC ---
 if st.session_state.run:
