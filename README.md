@@ -15,3 +15,5 @@ Features:
 	• Allows people regardless of ability to use more hands-free technology
 
 Utilizes: OpenCV | PyAutoGUI | | Streamlit | MediaPipe Ver 10.14
+----------------------------
+When offline, to reactivate it yourself, Download source code and Commit this to the Python Console: Streamlit run app.py
