@@ -1,5 +1,8 @@
 Eye Tracker Mouse Control A Python 2026 JagHacks Hackathon team project
 ----------------------------
+Contributors Refer to this Devpost page:
+https://devpost.com/software/point-blink?ref_content=my-projects-tab&ref_feature=my_projects
+
 Features:
 - Smooth cursor movement via Iris tracking.
 - Left Click: Blink Left Eye.
