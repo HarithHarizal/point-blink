@@ -18,4 +18,4 @@ Features:
 
 Utilizes: OpenCV | PyAutoGUI | Streamlit | MediaPipe Ver 10.14
 ----------------------------
-When offline, to reactivate it yourself, Download source code and Commit this to the Python Console: Streamlit run app.py
+This is a Local web application so, to reactivate it yourself, download the source code app.py (and optionally the style.css) and Commit this to the Python Console: **Streamlit run app.py**
