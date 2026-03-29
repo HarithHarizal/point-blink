@@ -14,6 +14,6 @@ Features:
 	• It can also help people in multitasking where they can use their eyes as an extra pair of limbs.
 	• Allows people regardless of ability to use more hands-free technology
 
-Utilizes: OpenCV | PyAutoGUI | | Streamlit | MediaPipe Ver 10.14
+Utilizes: OpenCV | PyAutoGUI | Streamlit | MediaPipe Ver 10.14
 ----------------------------
 When offline, to reactivate it yourself, Download source code and Commit this to the Python Console: Streamlit run app.py
