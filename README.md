@@ -1,6 +1,10 @@
 # point&blank
 
 Eye Tracker Mouse Control A Python 2026 JagHacks Hackathon team project
+
+# TO USE:
+This is a Local web application, so to reactivate it yourself, download the source code app.py (and optionally the style.css) and commit this to the Python Console: **Streamlit run app.py** Make sure all libraries are downloaded
+
 ----------------------------
 Team of Wonderful Contributors Refer to this Devpost page:
 https://devpost.com/software/point-blink?ref_content=my-projects-tab&ref_feature=my_projects
@@ -18,4 +22,3 @@ Features:
 
 Utilizes: OpenCV | PyAutoGUI | Streamlit | MediaPipe Ver 10.14
 ----------------------------
-This is a Local web application so, to reactivate it yourself, download the source code app.py (and optionally the style.css) and Commit this to the Python Console: **Streamlit run app.py**
