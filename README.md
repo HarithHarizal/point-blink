@@ -3,7 +3,8 @@
 Eye Tracker Mouse Control A Python 2026 JagHacks Hackathon team project
 
 # TO USE:
-This is a Local web application, so to reactivate it yourself, download the source code app.py (and optionally the style.css) and commit this to the Python Console: **Streamlit run app.py** Make sure all libraries are downloaded
+This is a Local web application, so to reactivate it yourself, download the source code app.py (and optionally the style.css) and commit this to the Python Console: **Streamlit run app.py** Make sure all libraries are downloaded.
+
 **NOTE:** Authenticator was a more detailed attempt at eye tracking, unfortunately, we didnt have the time to implement it in sake for more polished output
 
 ----------------------------
